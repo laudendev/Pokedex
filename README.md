@@ -41,8 +41,6 @@ The assignment specified menus with filter and sort options. I thought that was 
 - **Data**: the [Kaggle Pokémon dataset](https://www.kaggle.com/abcsds/pokemon),
   cleaned with pandas (see `modify_pokemon_data.ipynb`).
 
-Full original writeup: [documentation site](https://kuvapcsitrd01.kutztown.edu/~tlaud746/CSC402/Project3/index.html).
-
 ---
 
 *CSC 402, Kutztown University, 2021. Archived — the design idea
