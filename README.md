@@ -29,9 +29,7 @@ Output labels each command with its results, per file.
 
 ## Design
 
-The obvious implementation was menus with filter and sort options. I
-rejected that: finding one Pokémon by name shouldn't require walking
-sub-menus. A command language solves it —
+The assignment specified menus with filter and sort options. I thought that was inefficient — finding one Pokémon by name shouldn't require walking sub-menus — so I proposed a command language instead, and the professor approved it.
 
 - **Parser** (`command_parser.py`): validates delimiters, splits on `;`,
   builds a command dictionary via dict comprehension. Unknown keys fail
